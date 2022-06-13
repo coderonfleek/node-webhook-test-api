@@ -8,4 +8,4 @@ app.set("port", port);
 
 app.use("/", routes);
 
-app.listen(port, () => console.log("API Gateway Listening"));
+app.listen(port, () => console.log("Application Running"));
